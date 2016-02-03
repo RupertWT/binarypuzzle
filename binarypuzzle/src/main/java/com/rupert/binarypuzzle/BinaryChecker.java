@@ -1,5 +1,3 @@
-// Linked to GitHub
-
 package com.rupert.binarypuzzle;
 
 public class BinaryChecker {
