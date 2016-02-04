@@ -50,7 +50,7 @@ import org.junit.rules.ExpectedException;
 		
 		@Test
 		public void oneTrillionConvertsto1365623() {
-		assertEquals(1365623, checker.check(1000000000));
+			assertEquals(1365623, checker.check(1000000000));
 		}
 		
 		@Test
