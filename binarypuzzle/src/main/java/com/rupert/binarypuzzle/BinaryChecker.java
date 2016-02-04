@@ -1,5 +1,3 @@
-// successful pull / merge from home & work computers
-
 package com.rupert.binarypuzzle;
 
 public class BinaryChecker {
