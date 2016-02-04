@@ -3,7 +3,7 @@ package com.rupert.binarypuzzle;
 public class BinaryChecker {
 
 	public Object check(int x) {
-
+		
 		if (x < 0){
 			throw new IllegalArgumentException("The input number needs to be positive");
 		}
@@ -22,11 +22,11 @@ public class BinaryChecker {
 		return Integer.parseInt(output, 2); 
 		*/
 		
-	//Same result using binary
-	int b =0;
-		while (x!=0) { b<<=1; b|=( x &1); x>>=1; }
-	return b;
-	
+		//Same result using binary
+		int b = 0;
+			while (x!=0) { b<<=1; b|=( x &1); x>>=1; }
+		return b;
+		
 	}
 
 }
